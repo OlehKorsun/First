@@ -36,8 +36,8 @@ public class Zadanie6 {
 			a = scan1.nextInt();
 		}
 		if(a==0) {
-			System.out.println("Max: " + max + " Razy " + imax);
-			System.out.println("Min: " + min + " Razy " + imin);
+			System.out.println("Max: " + max + " " + imax " Razy");
+			System.out.println("Min: " + min + " " + imin " Razy");
 			return; 
 		}
 	}
