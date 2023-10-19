@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+public class Logika {
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Wprowadz pierwsze znaczenie");
+    boolean a = Scanner.nextBoolean();
+  }
+}
