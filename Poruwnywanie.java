@@ -13,21 +13,13 @@ public class Poruwnywanie {
 		
 		if(a==b && a==c && b==c) {
 			JOptionPane.showMessageDialog(null, "Nie OK");
-		}
-		
-		if(a==b && a!=c && b!=c) {
+		} else if(a==b && a!=c && b!=c) {
 			JOptionPane.showMessageDialog(null, "OK");
-		}
-		
-		if(a!=b && a==c && b!=c) {
+		} else if(a!=b && a==c && b!=c) {
 			JOptionPane.showMessageDialog(null, "OK");
-		}
-		
-		if(a!=b && a!=c && b==c) {
+		} else if(a!=b && a!=c && b==c) {
 			JOptionPane.showMessageDialog(null, "OK");
-		}
-		
-		if(a!=b && a!=c && b!=c) {
+		} else if(a!=b && a!=c && b!=c) {
 			JOptionPane.showMessageDialog(null, "Nie OK");
 		}
 	}
