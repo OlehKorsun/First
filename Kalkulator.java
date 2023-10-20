@@ -19,14 +19,11 @@ public class Kalkulator {
 		
 		if(c.equals(plus) == true) {
 			wynik = x + y;
-		} 
-		if(c.equals(minus) == true) {
+		} else if(c.equals(minus) == true) {
 			wynik = x - y;
-		}
-		if(c.equals(iloczyn) == true) {
+		} else if(c.equals(iloczyn) == true) {
 			wynik = x * y;
-		} 
-		if(c.equals(iloraz) == true) {
+		} else if(c.equals(iloraz) == true) {
 			wynik = x / y;
 		} 
 		JOptionPane.showMessageDialog(null, wynik);
