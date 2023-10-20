@@ -1,0 +1,9 @@
+public class Main {
+  public static void main(String[] args) {
+    summa(a:8, b:12);  
+}
+  public static void summa(int a, int b) {
+    sum = a+b;
+    System.out.println(sum);
+  }
+}
