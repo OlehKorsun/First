@@ -8,20 +8,28 @@ public class Kalkulator2 {
     String b = JOptionPane.showInputDialog(null, "Wprowadz liczbe 2");
     double y = Double.parseDouble(b);
 
-    String c = JOptionPane.showInputDialog(null, "Wprowadz operator")
+    String c = JOptionPane.showInputDialog(null, "Wprowadz operator");
     double res = 0;
 
     switch (c) {
-      case "+": System.out.println(x+y);
-      case "-": System.out.println(x-y);
+      case "+": 
+		JOptionPane.showMessageDialog(null, x+y);
+		break;
+      case "-": 
+		JOptionPane.showMessageDialog(null, x-y);
+		break;
       case "/": {
         if(y==0){
-          Sistem.out.println("Blond");
+          JOptionPane.showMessageDialog(null, "Blond");
+		  break;
         } else {
-          System.out.println(x/y);
+          JOptionPane.showMessageDialog(null, x/y);
+		  return;
         }
       }
-      case "*": System.out.println(x*y); 
+      case "*": 
+	  JOptionPane.showMessageDialog(null, x*y);
+	  break;
     }
   }
 }
