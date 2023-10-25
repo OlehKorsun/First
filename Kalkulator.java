@@ -1,5 +1,4 @@
 import javax.swing.*;
-
 public class Kalkulator {
 	public static void main(String[] args){
 		String a = JOptionPane.showInputDialog(null, "Podaj pierwsza liczbe");
