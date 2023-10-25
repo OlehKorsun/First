@@ -1,4 +1,4 @@
-public class Main {
+public class Funkcja {
 	
 	public static int suma(int a, int b) {
 		int sum = a+b;
