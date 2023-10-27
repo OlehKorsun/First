@@ -16,5 +16,9 @@ public class Logika {
     boolean AllThree = a==true && a==b && b==c;
     boolean OnlyOne = a==true && a!=b && b==c || b==true && a!=b && a==c || c==true && a!=c && a==b;
     boolean OnlyTwo = a==true && a==b && a!=c || a==true && a==c && a!=b || b==true && b==c && a!=b;
+
+    System.out.println("All Three: " + AllThree);
+    System.out.println("Only One: " + OnlyOne);
+    System.out.println("Only Two: " + OnlyTwo);
   }
 }
