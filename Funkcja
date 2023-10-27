@@ -8,5 +8,6 @@ public class Funkcja {
 	public static void main(String[] args) {
 		int sum = suma(8, 12);
 		System.out.println(sum);
+		System.out.println(++sum);
 	}
 }
