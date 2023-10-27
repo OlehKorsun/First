@@ -16,7 +16,8 @@ public class Trojkat {
 		if(max<b){
 			max = b;
 			sum = a+c;
-		} else if(max<c) {
+		} 
+		if(max<c) {
 			max = c;
 			sum = a+b;
 		}
