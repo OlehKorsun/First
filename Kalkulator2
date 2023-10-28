@@ -1,16 +1,12 @@
 import javax.swing.*;
-
 public class Kalkulator2 {
   public static void main(String[] args) {
     String a = JOptionPane.showInputDialog(null, "Wprowadz liczbe 1");
     double x = Double.parseDouble(a);
-
     String b = JOptionPane.showInputDialog(null, "Wprowadz liczbe 2");
     double y = Double.parseDouble(b);
-
     String c = JOptionPane.showInputDialog(null, "Wprowadz operator");
     double res = 0;
-
     switch (c) {
       case "+": 
 		JOptionPane.showMessageDialog(null, x+y);
