@@ -5,7 +5,7 @@ public class Zadanie1 {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Wprowadz wrtosc");
 		int x = scan.nextInt();
-		
+		// Суть задания: понять, входит ли данное число х в общий интервал
 		boolean a = x>-15 && x<=-10 || x>-5 && x<0 || x>5 && x<10;
 		boolean b = x<=-13 || x>-8 && x<=-3;
 		boolean c = x>=-4;
