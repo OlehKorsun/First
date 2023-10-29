@@ -14,7 +14,7 @@ public class Zadanie3 {
 			System.out.println("Nieprawidlowe dane");
 			return;
 		}
-		
+		// суть Задания: ввести месяц и год, а зетем посчитать сколько дней имеет заданный месяц в заданном году
 		if(mies==1 || mies==3 || mies==5 || mies ==7 || mies==8 || mies==10 || mies==12){
 			System.out.println("Ten miesiac ma 31 dzien");
 			return;
