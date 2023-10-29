@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Zadanie6 {
+public class Trojkat2 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Wprowadz katy");
