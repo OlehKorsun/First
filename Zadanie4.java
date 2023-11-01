@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// Проверяем глассная или согласная буква введена
 public class Zadanie4 {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
