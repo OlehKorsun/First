@@ -7,7 +7,7 @@ public class Trojkat2 {
 		double a = scan.nextDouble();
 		double b = scan.nextDouble();
 		double c = scan.nextDouble();
-		
+		// существует ли треугольник с заданными углами и если да, то какой он
 		if(a<0 || b<0 || c<0) {
 			System.out.println("Nieprawidlowe dane");
 			return;
