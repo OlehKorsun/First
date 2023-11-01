@@ -22,7 +22,7 @@ public class Kalkulator2 {
           JOptionPane.showMessageDialog(null, x/y);
 		  return;
         }
-      }
+      } break;
       case "*": 
 	  JOptionPane.showMessageDialog(null, x*y);
 	  break;
