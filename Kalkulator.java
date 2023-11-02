@@ -11,6 +11,7 @@ public class Kalkulator {
 		String minus = "-";
 		String iloczyn = "*";
 		String iloraz = "/";
+		// Приравниваем введённый знак и выполняем действие
 		if(c.equals(plus) == true) {
 			wynik = x + y;
 		} else if(c.equals(minus) == true) {
