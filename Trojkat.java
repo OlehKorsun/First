@@ -10,7 +10,7 @@ public class Trojkat {
 		
 		String z = JOptionPane.showInputDialog(null, "Wprowadz liczbe c");
 		double c = Double.parseDouble(z);
-		
+		// Если самая большая сторона меньше суммы двух других - значит всё в порядке
 		double max = a;
 		double sum = b+c;
 		if(max<b){
