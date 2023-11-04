@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Logika {
   public static void main(String[] args) {
-
+// Создаёшь boolean для каждого условия
     Scanner scan = new Scanner(System.in);
     System.out.println("Wprowadz pierwsze znaczenie");
     boolean a = Scanner.nextBoolean();
