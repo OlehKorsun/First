@@ -1,6 +1,7 @@
 import javax.swing.*;
 public class Poruwnywanie {
 	public static void main(String[] args){
+		// Только два числа должны быть равны
 		String x = JOptionPane.showInputDialog(null, "Enter a");
 		int a = Integer.parseInt(x);
 		String y = JOptionPane.showInputDialog(null, "Enter b");
