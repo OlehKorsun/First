@@ -4,7 +4,7 @@ public class Funkcja {
 		int sum = a+b;
 		return sum;
 	}
-	
+	 // Создание и  вызов функции
 	public static void main(String[] args) {
 		int sum = suma(8, 12);
 		System.out.println(sum);
