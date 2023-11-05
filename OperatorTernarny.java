@@ -23,6 +23,7 @@ public class OperatorTernarny {
             s1 = "!=";
             s2 = "<";
         }
+        
         System.out.println(a + s1 + b);
         System.out.println(a + s2 + b);
     }
