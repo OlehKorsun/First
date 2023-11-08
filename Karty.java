@@ -9,8 +9,8 @@ public class Karty {
                 case 2 -> "Karo";
                 case 3 -> "Kier";
                 default -> "Pik";
-
             };
+            
             String rank = switch(numer) {
                 case 2 -> "Dwojka";
                 case 3 -> "Trojka";
@@ -26,6 +26,7 @@ public class Karty {
                 case 13 -> "Krol";
                 default -> "As";
             };
+            
             System.out.println(rank + " " + kol);
         }
     }
