@@ -21,6 +21,7 @@ public class Gra20Pytan {
 //                System.out.println("Czy jest to n? " + n);
 //                odpowiedz = scan.next();
 //            }
+          
          for(int i = 1; i<20; i++) {
              System.out.println("Czy jest to n? " + n);
              String odpowiedz = scan.next();
