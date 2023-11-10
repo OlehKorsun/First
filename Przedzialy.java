@@ -14,7 +14,7 @@ public class Przedzialy {
 
         System.out.print("Wprowadz d: ");
         int d = scan.nextInt();
-
+        close.scan;
         boolean inSum, inIntersect, inSumDiff;
 
         for(int n = -5; n<6; n++){
