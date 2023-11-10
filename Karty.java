@@ -27,7 +27,7 @@ public class Karty {
                 default -> "As";
             };
             
-            System.out.println(rank + " " + kol);
+            System.out.println("Twoja karta to: "rank + " " + kol);
         }
     }
 }
