@@ -4,7 +4,7 @@ public class Gra20Pytan {
      public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int a = 1, b = 1000000;
-        int n = 500000;
+        int n = (a+b)/2;
 
 //        System.out.println("Czy jest to n? " + n);
 //        String odpowiedz = scan.next();
