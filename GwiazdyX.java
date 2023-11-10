@@ -23,38 +23,5 @@ public class GwiazdyX {
             System.out.print("*" + "\n");
         }
 
-
-
-
-
-
-
-
-
-
-
-
-//
-//        for(int i = 0; i<(n/2); i++) {
-//
-//
-//            for (; a < (n/2)+1; a++) {
-//                System.out.print(" ".repeat(i));
-//
-//                System.out.print("*");
-//                for (; b <= (n/2)+2 ; b++) {
-//                    System.out.print(" ");
-//                    a++;
-//                    b+=i;
-//                }
-//                System.out.print("*" + "\n");
-//            }
-//            a=1;
-//            b=a+2*i;
-//        }
-//
-//        System.out.println(a);
-//        System.out.println(b);
-
     }
 }
