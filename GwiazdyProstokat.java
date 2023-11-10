@@ -13,7 +13,6 @@ public class GwiazdyProstokat {
             System.out.println("Nieprawidlowe dane!");
             return;
         }
-
         for(int a = 1 ; a<=h; a++) {
             if(a==1 || a==h){
                 for(int i = 0; i<w; i++){
