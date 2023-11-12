@@ -20,7 +20,7 @@ public class Przedzialy {
         for(int n = -5; n<6; n++){
             inSum = n>=a && n<=b || n>=c && n<=d;
             inIntersect = n>=a && n<=b && n>=c && n<=d;
-            //inSumDiff = n>=a && n<=b && n<=c || n>=c && n<=d && n>=b;
+            //inSumDiff = n>=a && n<=b && n<=c || n>=c && n<=d && n>=b;   // mozna zrobic w rozny sposob
             inSumDiff = n>=a && n<=b ^ n>=c && n<=d;
             System.out.println(n + ": InSum? " + inSum + "; inIntersect? " + inIntersect + " ; inSymDiff? " + inSumDiff);
         }
