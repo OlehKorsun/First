@@ -14,7 +14,7 @@ public class GwiazdyX {
         int a = 1, b = 1, c = 2;
 
         for(int i = 0; i<(n/2); i++){
-            System.out.print(" ".repeat(i));
+            System.out.print(" ".repeat(i));    // trzeba jeszcze dorobic
             System.out.print("*");
             for( int j = 0; j<n-c; j++){
                 System.out.print(" ");
