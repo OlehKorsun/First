@@ -4,14 +4,14 @@ public class Karty {
             int kolor = (int) (Math.random()*4)+1;
             int numer = (int) (Math.random()*13)+2;
 
-            String kol = switch (kolor){
+            String kol = switch (kolor){  // sprawdzamy typ
                 case 1 -> "Trefl";
                 case 2 -> "Karo";
                 case 3 -> "Kier";
                 default -> "Pik";
             };
             
-            String rank = switch(numer) {
+            String rank = switch(numer) {  // sprawdzamy numer
                 case 2 -> "Dwojka";
                 case 3 -> "Trojka";
                 case 4 -> "Czworka";
