@@ -25,7 +25,7 @@ public class GwiazdyProstokat {
                     System.out.print(" ");
                 }
                 System.out.print("*");
-                System.out.println();
+                System.out.println(); // rysuje malunek
             }
         }
     }
