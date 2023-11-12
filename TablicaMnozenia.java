@@ -13,7 +13,7 @@ public class TablicaMnozenia {
                 System.out.print(a * b + " ");
                 a++;
             }
-            System.out.println();
+            System.out.println();  // rysuje tablice mnozenia do liczby n
             a=1;
         }
 
