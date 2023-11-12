@@ -5,22 +5,6 @@ public class Gra20Pytan {
         Scanner scan = new Scanner(System.in);
         int a = 1, b = 1000000;
         int n = (a+b)/2;
-
-//        System.out.println("Czy jest to n? " + n);
-//        String odpowiedz = scan.next();
-
-//            while (!(odpowiedz.equals("y"))) {
-//                if (odpowiedz.equals("s")) {
-//                    a = n;
-//                    n = (a+b)/2;
-//
-//                } else if (odpowiedz.equals("b")) {
-//                    b = n;
-//                    n = (a+b)/2;
-//                }
-//                System.out.println("Czy jest to n? " + n);
-//                odpowiedz = scan.next();
-//            }
           
          for(int i = 1; i<20; i++) {
              System.out.println("Czy jest to n? " + n);
