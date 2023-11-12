@@ -20,7 +20,7 @@ public class Gwiazdy {
                 i=0;
                 n-=1;
                 j++;
-                for(int g = j ; g>0 ; g--){
+                for(int g = j ; g>0 ; g--){   // maluje rysunek
                     System.out.print(" ");
                     i++;
                 }
