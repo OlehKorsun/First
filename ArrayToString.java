@@ -25,6 +25,6 @@ public class ArrayToString {
             arr[i]=a;
         }
         System.out.println(Arrays.toString(arr));
-        System.out.println(counter);
+        System.out.println("Ilosc sprob = " + counter);
     }
 }
