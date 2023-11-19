@@ -12,8 +12,10 @@ public class DwieTablicy {
             tabl1[i] = (int)(Math.random()*50);
             tabl2[i] = Math.random()*50;
         }
+        
         System.out.println(Arrays.toString(tabl1));
         System.out.println(Arrays.toString(tabl2));
+        System.out.println();
 
         double sum;
         int a1, imin;
@@ -40,7 +42,6 @@ public class DwieTablicy {
 
         }
 
-        System.out.println();
         System.out.println(Arrays.toString(tabl1));
         System.out.println(Arrays.toString(tabl2));
 
