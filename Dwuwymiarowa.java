@@ -17,7 +17,7 @@ public class Dwuwymiarowa {
             c[i] = (int)(Math.random() * 25 + 1);
         }
 
-        int[][] tabl = {a, b, c};
+        int[][] tabl = {a, b, c}; // wprowadzamy trzy tablicy wsrod jedna dwuwymarowa
 
         System.out.println(Arrays.deepToString(tabl));    // deep - jesli elementem tablicy jest tablica, to idzie dalej i wyswietla znaczenie
 
