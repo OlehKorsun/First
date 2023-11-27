@@ -1,6 +1,7 @@
 public class Czestotliwosc {
     public static void main(String[] args) {
         int[] tabl = {1, 1, 1, 1, 2, 2, 3, 3, 3, 3, 3, 3, 3, 4, 4, 5};            // Jaka liczba wystepuje czesciej niz pozostale i ile razy
+        
 
         int maxIl = 0, ilosc = 1, wrt = tabl[0];
 
