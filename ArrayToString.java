@@ -10,7 +10,6 @@ public class ArrayToString {
         boolean bool;
         int counter = 0;
 
-        
         for(int i = 1, a; i<arr.length; i++){
 
             do {
