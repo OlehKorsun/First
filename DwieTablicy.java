@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class DwieTablicy {
     public static void main(String[] args) {
 
-        
         int[] tabl1 = new int[5];
         double[] tabl2 = new double[5];
 
