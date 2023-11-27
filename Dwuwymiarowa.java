@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class Dwuwymiarowa {
     public static void main(String[] args) {
 
+        
         int[] a = new int[(int)(Math.random() * 5 + 1)];
         int[] b = new int[(int)(Math.random() * 6 + 1)];
         int[] c = new int[(int)(Math.random() * 7 + 1)];
