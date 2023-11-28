@@ -16,17 +16,17 @@ public class Zestaw9Zadanie4 {
 
         System.out.println("Array a - original");
         printMatrix(tabla);
-        int[][] b = rotateMatrix(tabla);
+        rotateMatrix(tabla);
         System.out.println("Array a - rotated");
-        printMatrix(b);
+        printMatrix(tabla);
 
         System.out.println();
 
         System.out.println("Array b - original");
         printMatrix(tablb);
-        int[][] c = rotateMatrix(tablb);
+        rotateMatrix(tablb);
         System.out.println("Array b - rotated");
-        printMatrix(c);
+        printMatrix(tablb);
     }
 
     static void printMatrix(int[][] tabl) {
