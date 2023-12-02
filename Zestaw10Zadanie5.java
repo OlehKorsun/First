@@ -10,7 +10,6 @@ public class Zestaw10Zadanie5 {
         };
 
         System.out.println(Arrays.deepToString(fun(tabl)));
-
     }
 
     public static int[][] fun(int[][] tabl){
