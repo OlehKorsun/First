@@ -20,4 +20,5 @@ public class Zestaw10Zadanie4 {
         }
         return tabl2;
     }
+    
 }
