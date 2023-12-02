@@ -23,6 +23,5 @@ public class Zestaw10Zadanie3 {
         }
 
         System.out.println(Arrays.toString(sum));
-
     }
 }
