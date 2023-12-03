@@ -6,6 +6,8 @@ public class Przedzialy {
         System.out.print("Wprowadz a: ");
         int a = scan.nextInt();
 
+
+        
         System.out.print("Wprowadz b: ");
         int b = scan.nextInt();
 
