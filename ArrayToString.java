@@ -8,6 +8,7 @@ public class ArrayToString {
         int[] arr = new int[size];
         arr[0]=(int)((Math.random()*nums)+1);
         boolean bool;
+        
         int counter = 0;
 
         for(int i = 1, a; i<arr.length; i++){
