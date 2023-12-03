@@ -5,8 +5,10 @@ public class Trojkat {
 		String x = JOptionPane.showInputDialog(null, "Wprowadz liczbe a");
 		double a = Double.parseDouble(x);
 		
+		
 		String y = JOptionPane.showInputDialog(null, "Wprowadz liczbe b");
 		double b = Double.parseDouble(y);
+		
 		
 		String z = JOptionPane.showInputDialog(null, "Wprowadz liczbe c");
 		double c = Double.parseDouble(z);
