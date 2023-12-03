@@ -7,6 +7,8 @@ public class TablicyKolkoKrzyzyk {
                   {2, 0, 2},
                   {1, 0, 0} };
 
+
+        
         for(int i = 0; i< tabl.length; i++){
             for(int j = 1; j< tabl.length; j++){          // sprawdzanie poziomo
                 if(tabl[i][j-1]!=tabl[i][j]) {
