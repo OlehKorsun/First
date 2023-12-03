@@ -6,6 +6,7 @@ public class OperatorTernarny {
 
         System.out.println("Enter a: ");
         int a = scan.nextInt();
+        
 
         System.out.println("Enter b: ");
         int b = scan.nextInt();
