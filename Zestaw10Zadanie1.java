@@ -4,7 +4,6 @@ public class Zestaw10Zadanie1 {
     public static void main(String[] args) {
         int[][] tabl = { {1, 2, 3, 4, 5}, {1, 9}, {3, 1, 8} };
         System.out.println(Arrays.toString(fun(tabl)));
-
     }
 
     public static int[] fun(int[][] tabl){
